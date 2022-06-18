@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="C:\Users\Bobby\Desktop\ITECA_Project\Shopping cart\styles1.css">
+
+  </head>
+  <body>  
+    <div class="topnav">
+        <a class="active" href="file:///C:/Users/Bobby/Desktop/ITECA_Project/Shopping%20cart/cart.html#cart">Cart</a>
+        <a href="C:\Users\Bobby\Desktop\ITECA_Project\Login\login.html">Login</a>
+        <a href="#contact">Shop</a>
+        <a href="C:\Users\Bobby\Desktop\ITECA_Project\About Us page\aboutus.html">About Us</a>
+      </div>
+ <main>
+    <div class="container"> 
+   <h1>Cart</h1>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">SpringbokT-Shirt</h3>
+            <img src="tshirt.jpg" alt="Springbok T-Shirt" height="100" width="100">
+            <p>Product comes with different sizes (S, M, L)</p>
+            <p class="price">$10</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Denim Jeans</h3>
+            <img src="jeans.jpg" alt="Denim Jeans" height="100" width="100">
+            <p>Product comes with different sizes (S, M, L)</p>
+            <p class="price">$8.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Geomess Socks</h3>
+            <img src="socks.jpg" alt="Geomess Socks" height="100" width="150">
+            <p>Product comes with different sizes (S, M, L)</p>
+            <p class="price">$5</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+ </main>
+        <script  src="C:\Users\Bobby\Desktop\ITECA_Project\Shopping cart\script.js"></script> 
+  </body>
+</html>
